@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cronofy//Cronofy 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Dhaka
+BEGIN:STANDARD
+DTSTART:20091231T230000
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0600
+TZNAME:+06
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240117T144531Z
+UID:65a7e80be6125000f38d91d8+af2f0401122bf8b8e876@invite.cronofy.com
+DTSTART;TZID=Asia/Dhaka:20240129T123000
+DTEND;TZID=Asia/Dhaka:20240129T140000
+DESCRIPTION:Join Google Meet: https://enosisbd.pinpointhq.com/candidates/in
+ terview_parts/ShWkRkiudnBk9AALsuFcTjAF/join\n\nInterview for Software Engi
+ neer .\n\nThis will be a programming session using an online IDE. You will
+  be able to use your preferred language to solve the programming problems.
+ \n\nDuring this session you are requested to confirm the following points:
+ * Reliable internet connectivity with decent bandwidth.\n* Computer with u
+ ninterruptible power supply (i.e. power backup).\n* Should join the call w
+ ith a video camera from the computer (we'll not allow joining with multipl
+ e accounts or joining from mobile devices).\n* Should have the decent qual
+ ity headphone for clear conversation.\nPlease note that it is important to
+  take necessary preparation in order for your skills and expertise to be e
+ valuated accurately.
+LAST-MODIFIED:20240117T144500Z
+ORGANIZER;CN=Enosis Solutions:mailto:organizer@invite.cronofy.com
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Interview at Enosis Solutions
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;X-NUM
+ -GUESTS=0;RSVP=TRUE:mailto:farhan.shariar.094@gmail.com
+END:VEVENT
+END:VCALENDAR
